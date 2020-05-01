@@ -1,0 +1,275 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(jeff-kepler-433zGXieqfI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Comic Sans MS";
+    height: 100%;
+}
+logo 
+{
+    float: left;
+    font-family: "Comic Sans MS";
+}
+.btns
+{
+    background-color: bisque;
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 70px;
+    margin-top: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 15px;
+}
+/*
+.search-box
+{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    height: 40%;
+    border-radius: 40%;
+    padding: 10%;
+    float: right;
+    margin-top: 60px;
+    margin-left: -160px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.search-btn
+{
+    color: aquamarine;
+    float: right;
+    width: 40px;
+    height: 40
+}
+*/
+.search-box {
+	position: absolute;
+	bottom: 80%;
+	left: 89%;
+	transform: translate(-50%, -50%);
+	background-color:white;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-btn {
+	color: burlywood;
+	float:right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #192a56 ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*hover effect collapse*/
+.search-box:hover > .search-text {
+	width: 200px;
+	padding: 0 6px;
+}
+.search-box:hover > .search-btn {
+	background: white;
+	transition: 0.5s;
+}
+.search-text {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s ;
+	line-height: 40px;
+	width: 0px;
+
+}
+.menu
+{
+    background-color:burlywood;
+    text-align: center;
+    margin-top: -220px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    margin-left: 15px;
+    margin-right: 15px
+}
+.menu ul
+{
+    margin-bottom: 60px;
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu ul li
+{
+    width: 100px;
+    margin: 30px;
+    padding: 5px;
+    font-size: 30px;
+    margin-top: 65px;
+}
+.menu ul li a
+{
+    text-decoration:none;
+    color:black;
+    transition: 0.3s ease;
+}
+.active, .menu ul li :hover
+{
+    background-color:salmon;
+    color:white; 
+    border-radius: 20px;
+}
+.submenu
+{
+    display:none;
+}
+.menu ul li :hover .submenu
+{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+    position:absolute
+}
+.menu ul li :hover .submenu ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu ul li :hover .submenu ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border border-radius: 0;
+    text-align: left;
+    display: block;
+    
+}
+.menu .fa
+{
+    left: 100%;
+    bottom: 90%;
+    margin: 10px;
+    display:flex;
+}
+fieldset
+{
+    background-color: cornsilk;;
+    margin:10px;
+    padding: 10px;
+    border: black 1px solid;
+    margin-bottom: 30px;
+}
+fieldset legend
+{
+    border: black 1px groove;
+    margin: 15px;
+    padding: 10px;
+    background-color:black;
+    color: white;   
+}
+.l1
+{
+    margin-left: -120px;
+    margin-right: 20px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.l2
+{
+    text-decoration: underline;
+    font-size: 30px;
+    margin-left: 10px;
+}
+F1
+{
+    width: 583px;
+    height: 583;
+    padding: 100px
+}
+.etsh
+{
+    width: 100px;
+    display: inline-block;
+    background-color:gainsboro;
+}
+.etsh2
+{
+    width: 100px;
+    display: inline-block;
+    background-color: gainsboro;
+    
+}
+.etsh3
+{
+    width: 100px;
+    display: inline-block;
+    background-color: gainsboro;
+}
+.etsh4
+{
+    width: 100px;
+    display: inline-block;
+    background-color:bisque;
+    
+}
+.etsh5
+{
+    width: 100px;
+    display: inline-block;
+    background-color: bisque;
+}
+.etsh6
+{
+    width: 100px;
+    display: inline-block;
+    background-color:bisque;
+}
+.etsh7
+{
+    width: 100px;
+    display: inline-block;
+    background-color:gainsboro;       
+}
+.etsh8
+{
+    width: 100px;
+    display: inline-block;
+    background-color: gainsboro; 
+}
+.etsh9
+{
+    width: 100px;
+    display: inline-block;
+    background-color: bisque;
+}
+.footer
+{
+    background-color:burlywood;
+    text-align: center;
+    margin: 0;
+    padding: 0;  
+}
